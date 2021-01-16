@@ -1,0 +1,19 @@
+<head>Trump Tweet Generator</head>
+
+
+
+<body>
+	<form action="/invocations"
+		<label for="prompt">Prompt:</label> 
+		<input type="text" name="prompt">
+		<input type="submit" value="Generate Tweet"
+	</form>
+</body>
+
+
+{% for tweet in tweets %}
+	<tr>
+		<td> {tweet} </tr>
+	</tr>
+
+{% end for %}
